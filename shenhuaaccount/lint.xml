@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/shenhua/account/ui/MyExplainForPiechart.java" />
+        <ignore path="src/com/shenhua/account/ui/MyIndicatorView.java" />
+        <ignore path="src/com/shenhua/account/ui/MyPiechart.java" />
+        <ignore path="src/com/shenhua/account/ui/NumPicProgressBar.java" />
+        <ignore path="src/com/shenhua/account/ui/Nupro.java" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/shenhua/account/Fragment_Home.java" />
+        <ignore path="src/com/shenhua/account/act/ActivityAddRecord.java" />
+        <ignore path="src/com/shenhua/account/act/SplashActivity.java" />
+        <ignore path="src/com/shenhua/account/adapter/HomeRecAdapter.java" />
+        <ignore path="src/com/shenhua/slidingmenudemo/Fragment_Home.java" />
+        <ignore path="src/com/shenhua/slidingmenudemo/act/ActivityAddRecord.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/shenhua/account/MainActivity.java" />
+        <ignore path="src/com/shenhua/slidingmenudemo/adapter/HomeRecAdapter.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/com/shenhua/account/act/ActivityAboutWeb.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/shenhua/account/bean/MyStringUtils.java" />
+        <ignore path="src/com/shenhua/account/dao/AccountManagerDataBase.java" />
+        <ignore path="src/com/shenhua/account/entity/MyStringUtils.java" />
+    </issue>
+</lint>

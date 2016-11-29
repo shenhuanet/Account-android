@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_nv_menu01"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_nv_menu02"
+            android:title="@string/nav_history" />
+        <item
+            android:id="@+id/nav_yusuan"
+            android:icon="@drawable/ic_nv_menu03"
+            android:title="@string/nav_yusuan" />
+        <item
+            android:id="@+id/nav_fenpei"
+            android:icon="@drawable/ic_nv_menu04"
+            android:title="@string/nav_fenpei" />
+        <!--<item-->
+            <!--android:id="@+id/nav_count"-->
+            <!--android:icon="@drawable/ic_nv_menu05"-->
+            <!--android:title="@string/nav_count" />-->
+    </group>
+
+    <item android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_nv_about"
+                android:title="@string/nav_about" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_nv_exit"
+                android:title="@string/nav_close" />
+        </menu>
+    </item>
+
+</menu>

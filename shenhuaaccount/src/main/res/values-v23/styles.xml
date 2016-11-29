@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyle.Accent.Right">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:drawableRight">@drawable/ic_come</item>
+        <item name="android:drawableTint">@color/accent</item>
+    </style>
+</resources>

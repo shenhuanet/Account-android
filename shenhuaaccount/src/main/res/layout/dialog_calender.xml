@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calender_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:ignore="ObsoleteLayoutParam,HardcodedText,RtlHardcoded,UselessParent" >
+
+    <TextView
+        android:id="@+id/calender_tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="data"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fffffe"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="#20000000" >
+        </View>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="日"
+                    android:textColor="@color/calender_weekdays_color" />
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="一"
+                    android:textColor="@color/calender_week_color" />
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="二"
+                    android:textColor="@color/calender_week_color" />
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="三"
+                    android:textColor="@color/calender_week_color" />
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="四"
+                    android:textColor="@color/calender_week_color" />
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="五"
+                    android:textColor="@color/calender_week_color" />
+
+                <TextView
+                    style="@style/calender_week_style"
+                    android:text="六"
+                    android:textColor="@color/calender_weekdays_color" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="#20000000" >
+        </View>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/calender_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@null"
+        android:numColumns="7"
+        android:scrollbars="@null" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:background="#20000000" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/calender_btn_cancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/calender_rectbg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="取 消" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="#20000000" >
+        </View>
+
+        <TextView
+            android:id="@+id/calender_btn_done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/calender_rectbg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="确 定" />
+    </LinearLayout>
+
+</LinearLayout>

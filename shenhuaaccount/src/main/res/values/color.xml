@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_background">#F5F5F5</color>
+    <color name="primary">#11CD6E</color>
+    <color name="primaryDark">#11CD6E</color>
+    <color name="accent">#11CD6E</color>
+    <color name="colorDivider">#D7D7D7</color>
+
+    <color name="light_blue">#5CACEE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_theme">#11CD6E</color>
+    <color name="color_qita">#A9B7B7</color>
+    <color name="color_jiaotong">#56ABE4</color>
+    <color name="color_jiankang">#EB4F38</color>
+    <color name="color_kongxian">#00BB9C</color>
+    <color name="color_shipin">#11CD6E</color>
+    <color name="color_hui">#AAAAAA</color>
+    <color name="color_hui2">#F8F8F8</color>
+    <color name="color_hui3">#F1F1F1</color>
+    <color name="item_line_color">#c8c7cc</color>
+    <color name="item_text_color">#2b2b2b</color>
+    <color name="head_text_color">#008B45</color>
+    <color name="setting_selector">#F3FEFE</color>
+    <color name="about_selector">#F0F0F0</color>
+    <color name="testcolor3">#194C9D</color>
+    <color name="testcolor5">#F2E287</color>
+    <color name="calender_weekdays_color">#F24949</color>
+    <color name="calender_week_color">#40000000</color>
+    <color name="color_text_pressed">#11CD6E</color>
+    <color name="color_text_selected">#FFFFFF</color>
+
+</resources>

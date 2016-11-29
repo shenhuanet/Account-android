@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shenhua.account"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+
+    <application
+        android:name="com.shenhua.account.bean.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.shenhua.account.act.SplashActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shenhua.account.MainActivity" />
+        <activity android:name="com.shenhua.account.act.ActivityAddAccount" />
+        <activity android:name="com.shenhua.account.act.ActivityAbout" />
+        <activity android:name="com.shenhua.account.act.ActivitySetting" />
+        <activity android:name="com.shenhua.account.act.ActivityMaIncome" />
+        <activity android:name="com.shenhua.account.act.ActivityMaLeibie" />
+        <activity android:name="com.shenhua.account.act.ActivityMaGdkx" />
+        <activity android:name="com.shenhua.account.act.ActivityAboutWeb" />
+    </application>
+
+</manifest>

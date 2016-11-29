@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded,ContentDescription,HardcodedText" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="#00000000" />
+
+    <RelativeLayout
+        android:id="@+id/group_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_item_bg"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="二月"
+            android:textColor="@color/color_theme"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/group_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/group_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/group_title"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="20"
+            android:textColor="#B7B7B7"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

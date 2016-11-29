@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialpad"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    tools:ignore="HardcodedText" >
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:clickable="false"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:focusable="false"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:maxLength="9"
+        android:singleLine="true"
+        android:textColor="@color/color_theme"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:layout_margin="5dp"
+        android:background="@color/color_theme" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/one"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/three"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/four"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/five"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/six"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="6" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/seven"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/nine"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="9" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/dot"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="." />
+
+        <Button
+            android:id="@+id/zero"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/KeyBoardBtnStyle"
+            android:background="@drawable/selector_keyboard_bg"
+            android:text="&lt;" />
+    </TableRow>
+
+</TableLayout>

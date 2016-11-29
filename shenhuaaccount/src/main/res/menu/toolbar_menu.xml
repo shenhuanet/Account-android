@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/tool_add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/toolmenu_add"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/tool_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/toolmenu_setting"
+        app:showAsAction="ifRoom"/>
+
+</menu>

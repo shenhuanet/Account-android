@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">总体一览</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nav_home">总体情况</string>
+    <string name="nav_history">账单历史</string>
+    <string name="nav_yusuan">财政预算</string>
+    <string name="nav_fenpei">分配情况</string>
+    <string name="nav_count">总体统计</string>
+    <string name="nav_about">关于</string>
+    <string name="nav_close">退出</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="toolmenu_add">添加纪录</string>
+    <string name="toolmenu_setting">设置</string>
+    <string name="toolmenu_add_done">完成</string>
+    <string name="toolmenu_add_cancle">取消</string>
+    <string name="welcome">欢迎使用，点击上面的加号添加纪录</string>
+    <string name="rmb">￥</string>
+    <string name="dialog_cacle">取消</string>
+    <string name="dialog_ok">确定</string>
+
+    <string name="count_title" formatted="false">%s年你一共花了%.2f元钱\n其中一共收入%.2f元，共%d次收入</string>
+    <string name="toolmenu_glsr">管理收入</string>
+    <string name="toolmenu_lbgl">类别管理</string>
+    <string name="toolmenu_lbgl_addleibie">添加类别</string>
+    <string name="toolmenu_gdkx">固定开销</string>
+    <string name="toolmenu_glsr_tj">添加收入</string>
+    <string name="history_lv_empty">暂时还没有账单记录</string>
+    <string name="glsr_lv_empty">暂时还没有添加过收入呢</string>
+    <string name="lbgl_lv_empty">当前为空</string>
+    <string name="www">http://fir.im/ztyl</string>
+    <string name="setting_string_leibie">共%d项类别</string>
+    <string name="setting_string_kaixiao">已设置%d项</string>
+    <string name="setting_string_qingkong">共%d条记录</string>
+    <string name="app_name_e">总体一览app二维码</string>
+
+    <string name="ver01">神话出品 2016 版权所有</string>
+    <string name="ver02">All Rights Reserved</string>
+    <string name="string_en_copyright">© 2016 shenhua All Rights Reserved.</string>
+
+
+</resources>

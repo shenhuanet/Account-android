@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:divider="@drawable/divider_line"
+            app:paddingStart="20dp"
+            app:showDividers="middle">
+
+            <RelativeLayout
+                android:id="@+id/set_rl1"
+                style="@style/ActionLayoutStyle">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="启动密码" />
+
+                <TextView
+                    android:id="@+id/set_tv_psw"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_rl2"
+                style="@style/ActionLayoutStyle">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="固定开销" />
+
+                <TextView
+                    android:id="@+id/set_tv_gdkx"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_rl3"
+                style="@style/ActionLayoutStyle"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="每月限额" />
+
+                <TextView
+                    android:id="@+id/set_tv_myxe"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_rl4"
+                style="@style/ActionLayoutStyle"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="类别管理" />
+
+                <TextView
+                    android:id="@+id/set_tv_lbgl"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_rl5"
+                style="@style/ActionLayoutStyle"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="管理收入" />
+
+                <TextView
+                    android:id="@+id/set_tv_glsr"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_rl6"
+                style="@style/ActionLayoutStyle">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="导出消费记录" />
+
+                <TextView
+                    android:id="@+id/set_tv_dcjl"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_rl7"
+                style="@style/ActionLayoutStyle">
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="清空所有数据" />
+
+                <TextView
+                    android:id="@+id/set_tv_qksysj"
+                    style="@style/TextStyle.Accent.Right" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</LinearLayout>

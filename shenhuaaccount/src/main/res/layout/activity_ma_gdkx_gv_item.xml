@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp" >
+
+        <View
+            android:id="@+id/gdkx_gv_item_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/color_theme" />
+
+        <TextView
+            android:id="@+id/gdkx_gv_item_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLength="5"
+            android:text="11111"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_with_11sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/gdkx_gv_item_tv_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="500"
+        android:textColor="@color/color_theme" />
+
+</RelativeLayout>
