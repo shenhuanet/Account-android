@@ -19,8 +19,8 @@
 #   public *;
 #}
 #保持第三方包不被混淆
--libraryjars libs/jxl.jar
--libraryjars libs/jsoup.jar
+#-libraryjars libs/jxl.jar
+#-libraryjars libs/jsoup.jar
 
 #保持某些类不被混淆
 -keep public class * extends android.support.v4.**

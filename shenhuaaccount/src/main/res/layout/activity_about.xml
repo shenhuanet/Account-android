@@ -54,7 +54,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
-            android:text="www.fir.im/shzd"
+            android:text="@string/www"
             android:textSize="@dimen/text_with_10sp" />
     </RelativeLayout>
 

@@ -2,12 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        old_keystore {
-            keyAlias 'shenhua'
-            keyPassword '215560509'
-            storeFile file('F:/Programing Resources/Android/Android Key/My signkey')
-            storePassword '215560509'
-        }
     }
     compileSdkVersion 23
     buildToolsVersion "25.0.1"
@@ -35,8 +29,6 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
-    compile files('libs/jsoup.jar')
-    compile files('libs/jxl.jar')
     compile 'com.android.support:recyclerview-v7:23.4.0'
     compile 'com.android.support:design:23.4.0'
 }
